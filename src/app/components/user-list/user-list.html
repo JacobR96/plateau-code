@@ -1,0 +1,13 @@
+<h2>Recent Graduates</h2>
+
+<div class="container">
+
+@for(user of users; track user.studentId){
+
+<app-user-card
+[user]="user">
+</app-user-card>
+
+}
+
+</div>
